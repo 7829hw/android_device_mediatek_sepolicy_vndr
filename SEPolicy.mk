@@ -9,7 +9,6 @@ BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BOARD_VENDOR_SEPOLICY_DIRS += \
     $(MTK_SEPOLICY_PATH)/basic/non_plat \
     $(MTK_SEPOLICY_PATH)/bsp/non_plat \
-    $(MTK_SEPOLICY_PATH)/bsp/non_plat/ota \
     $(MTK_SEPOLICY_PATH)/full/non_plat
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \

@@ -20,4 +20,3 @@
 #############################
 # System/bin files
 #
-/system/bin/program_binary_service u:object_r:program_binary_exec:s0

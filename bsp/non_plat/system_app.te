@@ -95,8 +95,6 @@ get_prop(system_app, mtk_system_update_support_prop)
 # Package: com.mediatek.settings.ext
 get_prop(system_app, mtk_wfc_opt_in_prop)
 
-# Purpose : Allow OSI Permission control to tcp socket
-allow system_app osi:tcp_socket { create connect write read bind accept listen getattr setattr getopt setopt };
 get_prop(system_app, mtk_vsim_sys_prop)
 set_prop(system_app, mtk_vsim_sys_prop)
 

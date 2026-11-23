@@ -29,6 +29,3 @@ get_prop(cameraserver,logmuch_prop)
 # Purpose: Allow to use shared memory for HAL PQ
 hal_client_domain(cameraserver, hal_allocator)
 
-# Purpose : for ViLTE - set VTservice has permission to access me
-allow cameraserver vtservice:binder { transfer call };
-allow cameraserver vtservice:fd use;

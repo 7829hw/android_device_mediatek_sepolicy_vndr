@@ -149,7 +149,6 @@
 
 ###################
 # system data files
-/system/bin/vtservice u:object_r:vtservice_exec:s0
 
 # MTK ATCI
 /(system\/vendor|vendor)/bin/atcid u:object_r:atcid_exec:s0
@@ -173,7 +172,6 @@
 /(vendor|system/vendor)/bin/remosaic_daemon    u:object_r:remosaic_daemon_exec:s0
 
 # VSIM 3.0
-/system/bin/osi u:object_r:osi_exec:s0
 
 # DMC (Diagnostic Monitoring Collector)
 /vendor/bin/dmc_core u:object_r:dmc_core_exec:s0

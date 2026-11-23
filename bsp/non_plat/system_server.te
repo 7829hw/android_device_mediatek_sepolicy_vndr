@@ -177,8 +177,6 @@ get_prop(system_server, mtk_bgdata_disabled)
 # Date : W1831
 # Purpose : Support Trustonic TeeService
 #============= system_server ==============
-binder_call(system_server, teed_app)
-binder_call(system_server, teeregistryd_app)
 allow system_server tee_service:service_manager find;
 allow system_server teeregistry_service:service_manager find;
 

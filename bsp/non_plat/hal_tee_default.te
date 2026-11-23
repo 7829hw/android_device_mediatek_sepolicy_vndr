@@ -12,6 +12,5 @@ allow hal_tee_default mobicore_tui_device:chr_file rw_file_perms;
 
 # HIDL memory is using this behind the scene
 allow hal_tee_default untrusted_app_all:fd use;
-allow hal_tee_default teeregistryd_app:fd use;
 
 init_daemon_domain(hal_tee_default);

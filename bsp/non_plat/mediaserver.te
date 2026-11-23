@@ -64,9 +64,6 @@ hal_client_domain(mediaserver, hal_allocator)
 # Purpose: Allow to use ape decoder
 hal_client_domain(mediaserver, hal_mtkcodecservice)
 
-# Purpose : for ViLTE - set VTservice has permission to access me
-allow mediaserver vtservice:binder { transfer call };
-allow mediaserver vtservice:fd use;
 
 # Purpose : Allow mediaserver to read processname to pass OMA DRM permisson check
 allow mediaserver platform_app:dir search;
